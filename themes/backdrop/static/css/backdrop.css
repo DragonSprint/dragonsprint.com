@@ -7891,6 +7891,13 @@ pre {
 /*# sourceMappingURL=backdrop.css.map */
 
 
+/* Custom CSS by zupo */
+
 .fa-meetup:before {
   content: "\f2e0";
+}
+
+img.align-center {
+  display: block;
+  margin: 0 auto;
 }

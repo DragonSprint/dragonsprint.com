@@ -4,7 +4,15 @@
 <div class="row">
     {% if articles|length %}
     <div class="small-12 medium-12 columns">
-        {{ macros.article_summary(articles[0],SITEURL,True,disqus=DISQUS_SITENAME) }}
+        <p>Welcome to DragonSprint, a week-long sprint on Pyramid. The sprint takes place in Ljubljana, Slovenia, EU in the first week of December (5th to 9th). The main two sprint topics are <em>Pyramid 2.0</em> and <em>Pyramid for Newcomers</em>.</p>
+        <p>The sprint is <strong>free</strong> to attend for everyone! <a class="reference external" href="mailto:info@dragonsprint.com">Contact us</a> if you need help with covering your travel expenses.</p>
+        <p>Use the menu at the top to read more about the event.</p>
+        <p>Here's some recent content:</p>
+    </div>
+    {% endif %}
+    {% if articles|length %}
+    <div class="small-12 medium-6 columns small-articles">
+        {{ macros.article_summary(articles[0],SITEURL,False,False,disqus=DISQUS_SITENAME) }}
     </div>
     {% endif %}
     {% if articles|length > 1 %}
@@ -12,15 +20,10 @@
         {{ macros.article_summary(articles[1],SITEURL,False,False,disqus=DISQUS_SITENAME) }}
     </div>
     {% endif %}
-    {% if articles|length > 2 %}
-    <div class="small-12 medium-6 columns small-articles">
-        {{ macros.article_summary(articles[2],SITEURL,False,False,disqus=DISQUS_SITENAME) }}
-    </div>
-    {% endif %}
 </div>
 <div class="row">
     <div class="small-12 columns">
-        <a class="button" href="{{ SITEURL }}/archives.html">Older Articles&hellip;</a>
+        <!-- <a class="button" href="{{ SITEURL }}/archives.html">Older Articles&hellip;</a> -->
     </div>
 </div>
 {% endblock content %}

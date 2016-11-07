@@ -10,6 +10,8 @@ Nejc Zupan
 
 Geek since he was able to walk. Ditched academic spheres for excitements of start-ups and entrepreneurship powered by open-source. Co-founder or MladiPodjetnik.si, NiteoWeb Ltd. and SecuCert/SafeSigned. Avid windsurfer & stand-up-paddler.
 
+DragonSprint organizer.
+
 * https://blog.niteoweb.com/
 * https://github.com/zupo
 * https://twitter.com/nzupan

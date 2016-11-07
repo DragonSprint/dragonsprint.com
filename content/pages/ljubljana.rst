@@ -47,6 +47,36 @@ See https://www.visitljubljana.com/en/visitors/explore-the-region/visitor-inform
 More details on http://wikitravel.org/en/Ljubljana.
 
 
+Accommodation
+=============
+
+Hotels
+------
+
+* http://www.hotelcubo.com/
+* http://www.union-hotels.eu/sl/hotel-lev/
+* http://www.hotelslon.com http://www.hotelslon.com
+* http://www.union-hotels.eu/sl/grand-hotel-union/ http://www.union-hotels.eu/sl/grand-hotel-union/
+
+Hostels
+-------
+
+* http://www.hostelcelica.com/ (modern restoration of an ex-prison)
+* http://www.vilaveselovahostel.com/
+* http://www.zeppelinhostel.com/
+* http://www.alibim14.hostel.com/
+
+Other
+-----
+
+* 4 people on a budget can stay at one of organizer's place for free, contact us to book your place.
+* `AirBNB has great offers <https://www.airbnb.com/s/ljubljana?page=1&source=map&airbnb_plus_only=false&sw_lat=46.04521250057827&sw_lng=14.487534432244274&ne_lat=46.05474562272799&ne_lng=14.497791199517224&search_by_map=true&zoom=16&guests=1&ss_id=3cze4hwr&allow_override%5B%5D=&s_tag=in5xKF16https://www.airbnb.com/s/ljubljana?page=1&source=map&airbnb_plus_only=false&sw_lat=46.04521250057827&sw_lng=14.487534432244274&ne_lat=46.05474562272799&ne_lng=14.497791199517224&search_by_map=true&zoom=16&guests=1&ss_id=3cze4hwr&allow_override%5B%5D=&s_tag=in5xKF16>`_
+
+.. image:: /images/airbnb.jpg
+    :alt: Nearby AirBNB offers
+    :align: center
+
+
 Prices
 ======
 

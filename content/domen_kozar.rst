@@ -10,6 +10,8 @@ Domen Kožar
 
 Nix and Elm developer learning Haskell. 10 years of experience building Python applications.
 
+DragonSprint organizer.
+
 * https://www.domenkozar.com/
 * https://github.com/domenkozar
 * https://twitter.com/ielectric

@@ -12,6 +12,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
+DEFAULT_CATEGORY = ''
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
