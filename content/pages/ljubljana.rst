@@ -55,8 +55,9 @@ Hotels
 
 * http://www.hotelcubo.com/
 * http://www.union-hotels.eu/sl/hotel-lev/
-* http://www.hotelslon.com http://www.hotelslon.com
-* http://www.union-hotels.eu/sl/grand-hotel-union/ http://www.union-hotels.eu/sl/grand-hotel-union/
+* http://www.hotelslon.com
+* http://www.union-hotels.eu/sl/grand-hotel-union/
+* https://www.cityhotel.si/
 
 Hostels
 -------
