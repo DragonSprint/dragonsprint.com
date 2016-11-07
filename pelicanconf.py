@@ -33,3 +33,7 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Theme
+THEME = "../themes/backdrop"
+PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
