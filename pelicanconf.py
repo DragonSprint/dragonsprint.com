@@ -57,5 +57,6 @@ BACKDROP_IMAGE = 'theme/images/backdrop.jpg'
 SITE_DESCRIPTION = 'DragonSprint is a week-long sprint on Pyramid. The ' \
 'sprint takes place in Ljubljana, Slovenia, EU in the first week of ' \
 'December (5th to 9th). The main two sprint topics are Pyramid 2.0 and ' \
-'Pyramid for Newcomers. <br /><br />The sprint is free to attend for ' \
+'Pyramid for Newcomers. <br /><br />The sprint is <b>free</b> to attend for ' \
 'everyone! Contact us if you need help with covering your travel expenses.'
+YEAR = '2016'

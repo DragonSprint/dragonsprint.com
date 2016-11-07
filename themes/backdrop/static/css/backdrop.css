@@ -7424,8 +7424,11 @@ th.hide-for-touch {
   max-height: 33%; }
 
 .about-me {
+  text-shadow: 1px 1px #000000;
   padding-bottom: 1.25rem;
   overflow: hidden; }
+  div {
+    font-size:  1rem !important; }
   .about-me h5 {
     margin-top: 0; }
 
