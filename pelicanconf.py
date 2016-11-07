@@ -20,15 +20,22 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# Sponsors & Partners
+LINKS = (
+    ('Python Software Foundation', 'https://www.python.org/psf/'),
+    ('Termitnjak d.o.o.', 'http://www.termitnjak.com/'),
+    ('Domen Kožar', 'https://www.domenkozar.com/'),
+    ('NiteoWeb Ltd.', 'http://www.niteoweb.com'),
+    ('Plone Foundation', 'https://plone.org/foundation'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+EMAIL = 'mailto:info@dragonsprint.com'
+SOCIAL = (
+    ('Github', 'https://github.com/pylons/pyramid/issues?q=is%3Aissue+is%3Aopen+label%3Asprintable'),
+    ('Twitter', 'https://twitter.com/DragonSprintCom'),
+    ('Meetup', 'https://www.meetup.com/Ljubljana-Python-Group/'),
+)
 
 DEFAULT_PAGINATION = False
 
@@ -40,9 +47,15 @@ STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # Theme
-THEME = "../themes/backdrop"
+THEME = "themes/backdrop"
 PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
-PLUGIN_PATH = '../plugins'
+PLUGIN_PATHS = ['plugins', ]
 PLUGINS = [
     'representative_image',
 ]
+BACKDROP_IMAGE = 'theme/images/backdrop.jpg'
+SITE_DESCRIPTION = 'DragonSprint is a week-long sprint on Pyramid. The ' \
+'sprint takes place in Ljubljana, Slovenia, EU in the first week of ' \
+'December (5th to 9th). The main two sprint topics are Pyramid 2.0 and ' \
+'Pyramid for Newcomers. <br /><br />The sprint is free to attend for ' \
+'everyone! Contact us if you need help with covering your travel expenses.'
