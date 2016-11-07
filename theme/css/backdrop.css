@@ -6071,14 +6071,14 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
           color: #FFFFFF; }
     .top-bar-section ul li:hover:not(.has-form) > a {
-      background-color: #a70412;
-      background: #a70412;
+      background-color: #207078;
+      background: #207078;
       color: #FFFFFF; }
     .top-bar-section ul li.active > a {
       background: #194850;
       color: #FFFFFF; }
       .top-bar-section ul li.active > a:hover {
-        background: #a70412;
+        background: #207078;
         color: #FFFFFF; }
   .top-bar-section .has-form {
     padding: 0.9375rem; }
@@ -6192,23 +6192,23 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background-color: #a70412;
-      background: #a70412;
+      background-color: #207078;
+      background: #207078;
       color: #FFFFFF; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 0.9375rem;
       line-height: 2.8125rem;
       background: #194850; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background-color: #a70412;
-        background: #a70412; }
+        background-color: #207078;
+        background: #207078; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 0.9375rem;
       line-height: 2.8125rem;
       color: #FFFFFF;
       background: #194850; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #a70412;
+        background: #207078;
         color: #FFFFFF; }
     .top-bar-section .has-dropdown > a {
       padding-right: 2.1875rem !important; }
@@ -6270,7 +6270,7 @@ meta.foundation-mq-topbar {
         background: #333333; }
       .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
         color: #FFFFFF;
-        background-color: #a70412;
+        background-color: #207078;
         background: #333333; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
@@ -6300,8 +6300,8 @@ meta.foundation-mq-topbar {
       .top-bar-section .left li .dropdown li .dropdown {
         left: 100%; }
   .no-js .top-bar-section ul li:hover > a {
-    background-color: #a70412;
-    background: #a70412;
+    background-color: #207078;
+    background: #207078;
     color: #FFFFFF; }
   .no-js .top-bar-section ul li:active > a {
     background: #194850;
