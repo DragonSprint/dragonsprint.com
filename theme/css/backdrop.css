@@ -7889,3 +7889,8 @@ pre {
   display: block; }
 
 /*# sourceMappingURL=backdrop.css.map */
+
+
+.fa-meetup:before {
+  content: "\f2e0";
+}
