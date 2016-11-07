@@ -3,8 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Ljubljana Pyramid Hackers'
-SITENAME = u'DragonSprint.com'
-SITEURL = ''
+SITENAME = u'A full week of sprinting on Pyramid'
+SITESUBTITLE = u'5 to 9 December 2016, set in the beautiful Ljubljana, Slovenia'
+SITEURL = 'http://dragonsprint.com'
 
 PATH = 'content'
 
@@ -32,8 +33,12 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # Theme
 THEME = "../themes/backdrop"
 PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
+PLUGIN_PATH = '../plugins'
+PLUGINS = [
+    'representative_image',
+]
