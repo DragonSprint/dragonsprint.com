@@ -72,8 +72,10 @@
                         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
                     </ul>
                     <section class="top-bar-section">
-                        <a href="#"><img src="/theme/images/logo.jpg" /></a>
                         <ul class="left">
+                        <li>
+                            <a href="http://dragonsprint.com"><img src="/theme/images/logo.jpg" /></a>
+                        </li>
                         {% for p in pages %}
                             <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
                         {% endfor %}
