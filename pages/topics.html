@@ -6,7 +6,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Ljubljana Pyramid Hackers" />
-        <title>Authors</title>
+        <title>Sprint Topics</title>
 
         <meta name="description" content="5 to 9 December 2016, set in the beautiful Ljubljana, Slovenia" />
         <meta name="keywords" content="Blog "/>
@@ -41,7 +41,7 @@
                         </li>
                             <li><a href="http://dragonsprint.com/pages/ljubljana.html">Ljubljana</a></li>
                             <li><a href="http://dragonsprint.com/pages/schedule.html">Schedule</a></li>
-                            <li><a href="http://dragonsprint.com/pages/topics.html">Sprint Topics</a></li>
+                            <li class="active"><a href="http://dragonsprint.com/pages/topics.html">Sprint Topics</a></li>
                             <li><a href="http://dragonsprint.com/pages/venue.html">Venue</a></li>
                         </ul>
                         <ul class="right">
@@ -60,65 +60,61 @@
                 <div id="contents">
 <div class="row">
     <div class="small-12 columns article">
-        <h2><a href="http://dragonsprint.com/author/ljubljana-pyramid-hackers.html">Ljubljana Pyramid Hackers</a></h2>
-              <section class="summary">
-    <h3><a href="http://dragonsprint.com/domen-kozar.html" rel="bookmark" title="Permalink to Domen Kožar">Domen Kožar</a></h3>
-    <!-- <div class="row info-bar" style="margin-left:0rem;margin-bottom:6px;">
-    <div class="small-12 columns">
-        <ul class="inline-list">
-            <li><span><i class="fa fa-calendar"></i>&nbsp; Thu 20 October 2016</span></li>
-            <li><span><i class="fa fa-folder-open"></i>&nbsp; <a href="http://dragonsprint.com/category/sprinters.html">Sprinters</a></span></li>
-            <li>
-                <span>
-                    <i class="fa fa-tags"></i>&nbsp;
-                    <a href="http://dragonsprint.com/tag/sprinters.html"><span class="label">sprinters</span></a>
-                </span>
-            </li>
-        </ul>
-    </div>
-</div> -->
-    <div class="row summary">
-        <div class="small-12 medium-12 columns">
-            <p>Nix and Elm developer learning Haskell. 10 years of experience building Python applications.</p>
+        <h2>Sprint Topics</h2>
+        <section>
+            <div class="section" id="pyramid-2-0">
+<h2>Pyramid 2.0</h2>
+<p>There has been a lengthy discussion about what should go into Pyramid 2.0. The entire story is on <a class="reference external" href="https://github.com/Pylons/pyramid/issues/2362">https://github.com/Pylons/pyramid/issues/2362</a>, let's just have a quick summary here:</p>
+<div class="section" id="likely">
+<h3>Likely</h3>
 <ul class="simple">
-<li><a class="reference external" href="https://www.domenkozar.com/">https://www.domenkozar.com/</a></li>
-<li><a class="reference external" href="https://github.com/domenkozar">https://github.com/domenkozar</a></li>
-<li><a class="reference external" href="https://twitter.com/ielectric">https://twitter.com/ielectric</a></li>
+<li>Remove check_csrf view predicate in favor of require_csrf (already deprecated).</li>
+<li>Remove custom_predicates from config.add_view and view_config (already deprecated).</li>
+<li>Remove config.set_request_property (already deprecated).</li>
 </ul>
-
-            <!-- <p class='text-right'><a href="http://dragonsprint.com/domen-kozar.html">Continue reading&hellip;</a> --></p>
-        </div>
-    </div>
-</section>
-              <section class="summary">
-    <h3><a href="http://dragonsprint.com/nejc-zupan.html" rel="bookmark" title="Permalink to Nejc Zupan">Nejc Zupan</a></h3>
-    <!-- <div class="row info-bar" style="margin-left:0rem;margin-bottom:6px;">
-    <div class="small-12 columns">
-        <ul class="inline-list">
-            <li><span><i class="fa fa-calendar"></i>&nbsp; Thu 20 October 2016</span></li>
-            <li><span><i class="fa fa-folder-open"></i>&nbsp; <a href="http://dragonsprint.com/category/sprinters.html">Sprinters</a></span></li>
-            <li>
-                <span>
-                    <i class="fa fa-tags"></i>&nbsp;
-                    <a href="http://dragonsprint.com/tag/sprinters.html"><span class="label">sprinters</span></a>
-                </span>
-            </li>
-        </ul>
-    </div>
-</div> -->
-    <div class="row summary">
-        <div class="small-12 medium-12 columns">
-            <p>Geek since he was able to walk. Ditched academic spheres for excitements of start-ups and entrepreneurship powered by open-source. Co-founder or MladiPodjetnik.si, NiteoWeb Ltd. and SecuCert/SafeSigned. Avid windsurfer &amp; stand-up-paddler.</p>
+</div>
+<div class="section" id="interesting-let-s-open-an-issue-and-talk-about-it">
+<h3>Interesting, let's open an issue and talk about it</h3>
+<p>Something to do with route prefixes so that it's possible to use config.include without the base url inside having a / suffix. #406, #1639
+Drop PasteDeploy in favor of a better loading system. #2419
+Fix predicate factories to accept a standardized info object instead of config. Currently the only purpose of this argument is for config.maybe_dotted but it's poor practice to pass the ephemeral config object around. #2535</p>
+</div>
+<div class="section" id="interesting-but-unlikely-without-a-champion-to-start-the-discussion">
+<h3>Interesting but unlikely without a champion to start the discussion</h3>
+<p>Deprecate remember/forget APIs in favor of a pattern that fits better with non-cookie workflows.
+Something to do with identity and auth-api post mortem?
+Remove pcreate and default scaffolds. #2384
+Add a public API at the top-level pyramid namespace. For example pyramid.view_config, pyramid.Configurator, etc. This would greatly assist in maintainability of the public API for people using IDEs like pycharm where they may not be checking the docs to ensure an API is public. Probably use a lazy-instantiator like apipkg for this. #2387
+Switch the ISession contract from pickleable objects to something more secure and portable like json. #2709
+Separate CSRF tokens from the ISession into something else implementable without a session.
+Re-work view_config to namespace arguments to be more clear about options versus predicates.
+Re-work config.add_view, config.add_forbidden_view, config.add_notfound_view to accept only kwargs. Almost all of the parameters are indistinguishable from user-defined view options, so they could be treated all the same.
+Separate NotFound and Forbidden exceptions from HTTPNotFound and HTTPForbidden. This would undo previous work to merge them in order to make exception views more understandable.</p>
+<p>DragonSprint is a perfect opportunity to discuss these issues and decide what the next steps are.</p>
+</div>
+</div>
+<div class="section" id="pyramid-for-newcomers">
+<h2>Pyramid for Newcomers</h2>
+<p>Those of us that use Pyramid know how great it is. But unfortunately, when I go to Python conferences around Europe, not many people know Pyramid. Why is that?</p>
+<p>We are gonna be holding a thorough research into what we as a community can do to make Pyramid more visible to the Python community and how to make our docs better. Let's find out what other communities such as Flask, Django, even Plone are doing right and see if we can duplicate their results.</p>
+<p>Just some random ideas:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://blog.niteoweb.com/">https://blog.niteoweb.com/</a></li>
-<li><a class="reference external" href="https://github.com/zupo">https://github.com/zupo</a></li>
-<li><a class="reference external" href="https://twitter.com/nzupan">https://twitter.com/nzupan</a></li>
+<li>Is there a tutorial topic that is popular between Web frameworks and Pyramid does not have it?</li>
+<li>create Pyramid cheat-sheet for DuckDuckGo</li>
+<li>automatic Tweets for new Pyramid releases</li>
+<li>update <a class="reference external" href="http://www.pylonsproject.org/">http://www.pylonsproject.org/</a> with up-to-date content and graphics</li>
+<li>make the expirience for new contributors nicer (i.e. what Coala folks are doing)</li>
+<li>create a &quot;Heroku button&quot; so it's super easy to get your own install of Pyramid online in no time</li>
+<li>Pyramid success stories</li>
+<li>Donation page</li>
 </ul>
-
-            <!-- <p class='text-right'><a href="http://dragonsprint.com/nejc-zupan.html">Continue reading&hellip;</a> --></p>
-        </div>
-    </div>
-</section>
+</div>
+<div class="section" id="want-to-work-on-something-else">
+<h2>Want to work on something else?</h2>
+<p>By all means do! Since sprints are of open nature, anyone can and should suggest a topic!</p>
+</div>
+    
+        </section>
     </div>
 </div>
                 </div>
