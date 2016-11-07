@@ -54,5 +54,5 @@ PLUGINS = [
     'representative_image',
 ]
 BACKDROP_IMAGE = '/theme/images/backdrop.jpg'
-SITE_DESCRIPTION = 'DragonSprint is a week-long sprint on Pyramid. The sprint takes place in Ljubljana, Slovenia, EU in the first week of December (5th to 9th). The main two sprint topics are <li>Pyramid 2.0</li> and Pyramid for Newcomers. <br /><br />The sprint is <b>free</b> to attend for everyone! <a href="mailto:info@dragonsprint.com">Contact us</a> if you need help with covering your travel expenses.'
+SITE_DESCRIPTION = 'DragonSprint is a week-long sprint on Pyramid. The sprint takes place in Ljubljana, Slovenia, EU in the first week of December (5th to 9th). The main two sprint topics are <i>Pyramid 2.0</i> and Pyramid for Newcomers. <br /><br />The sprint is <b>free</b> to attend for everyone! <a href="mailto:info@dragonsprint.com">Contact us</a> if you need help with covering your travel expenses.'
 YEAR = '2016'

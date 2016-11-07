@@ -24,7 +24,7 @@
 
 {% macro article_summary(article,url,showimg=False,imgside=True,disqus=None) -%}
 {% if showimg and imgside and article.featured_image %}
-    {% set numcols1 = 3 %}
+    {% set numcols1 = 9 %}
     {% set numcols2 = 12 - numcols1 %}
 {% else %}
     {% set numcols1 = 12 %}
@@ -35,7 +35,7 @@
     <!-- {{ article_info(article, url, disqus) }} -->
     <div class="row summary">
         <div class="small-12 medium-{{ numcols1 }} columns">
-            {{ article.body }}
+            {{ article.content }}
             <!-- <p class='text-right'><a href="{{ url }}/{{ article.url }}">Continue reading&hellip;</a> --></p>
         </div>
     {% if showimg and article.featured_image %}
