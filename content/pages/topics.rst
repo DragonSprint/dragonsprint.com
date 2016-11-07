@@ -65,13 +65,6 @@ Want to work on something else?
 By all means do! Since sprints are of open nature, anyone can and should suggest a topic!
 
 
-Ljubljana Python Meetup
-=======================
-
-Our sprint venue, Poligon, also holds quarterly `Ljubljana Python Meetups <https://www.meetup.com/Ljubljana-Python-Group/>`_ regularly attended by up to 100 local Python developers. And guess what, this time the meetup will happen on December 8th, our last sprint day.
-
-This is a unique opportunity to showcase Pyramid, the product, and Pyramid, the community, to the larger Python community in and around Slovenia. We have slots for two talks and it would be great to have one Pyramid success story and one Getting started with Pyramid demo-style talk. Could you do one of these talks? Please `contact us <mailto:info@dragonsprint.com>`_!
-
 
 .. image:: /images/meetup1.jpg
     :alt: Meetup
