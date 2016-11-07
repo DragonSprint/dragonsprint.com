@@ -12,11 +12,12 @@ Our budget breakdown is as follows:
 
 * Venue: 500€
 * Lunch: 5 days * 20 people * 5€: 500€
-* Dinner: 5 days * 20 people * 15€: 1500€
+* Dinner: 4 days * 20 people * 15€: 1200€
 * Graphics: 200€, (logo, web, nametags, T-Shirts, etc.)
 * T-Shirts: 20 people * 15€: 300€
 * Niceties/emergency: 200€
-TOTAL: 3000€ (+2000€ for travel/accommodation expenses for financially disadvantaged)
+
+TOTAL: 2700€ (+2000€ for travel/accommodation expenses for financially disadvantaged)
 
 Whatever is left will be donated to the Python Software Foundation.
 
