@@ -24,7 +24,7 @@
 
 {% macro article_summary(article,url,showimg=False,imgside=True,disqus=None) -%}
 {% if showimg and imgside and article.featured_image %}
-    {% set numcols1 = 7 %}
+    {% set numcols1 = 3 %}
     {% set numcols2 = 12 - numcols1 %}
 {% else %}
     {% set numcols1 = 12 %}
@@ -32,11 +32,11 @@
 {% endif %}
 <section class="summary">
     <h3><a href="{{ url }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3>
-    {{ article_info(article, url, disqus) }}
+    <!-- {{ article_info(article, url, disqus) }} -->
     <div class="row summary">
         <div class="small-12 medium-{{ numcols1 }} columns">
-            {{ article.summary }}
-            <p class='text-right'><a href="{{ url }}/{{ article.url }}">Continue reading&hellip;</a></p>
+            {{ article.body }}
+            <!-- <p class='text-right'><a href="{{ url }}/{{ article.url }}">Continue reading&hellip;</a> --></p>
         </div>
     {% if showimg and article.featured_image %}
         <div class="small-12 medium-{{ numcols2 }} columns">

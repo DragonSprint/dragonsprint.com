@@ -3,7 +3,7 @@ Nejc Zupan
 
 :date: 2016-10-20 16:20
 :tags: sprinters
-:category: sprinters
+:category: Sprinters
 :slug: nejc-zupan
 :summary: Python consultant with an entrepreneurial blend
 :image: /images/nejc_zupan.jpg

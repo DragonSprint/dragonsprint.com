@@ -3,7 +3,7 @@ Domen Kožar
 
 :date: 2016-10-20 16:20
 :tags: sprinters
-:category: sprinters
+:category: Sprinters
 :slug: domen-kozar
 :summary: Python / Nix / JavaScript developer
 :image: /images/domen_kozar.jpg
