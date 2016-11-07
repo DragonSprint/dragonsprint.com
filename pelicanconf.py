@@ -53,7 +53,7 @@ PLUGIN_PATHS = ['plugins', ]
 PLUGINS = [
     'representative_image',
 ]
-BACKDROP_IMAGE = 'theme/images/backdrop.jpg'
+BACKDROP_IMAGE = '/theme/images/backdrop.jpg'
 SITE_DESCRIPTION = 'DragonSprint is a week-long sprint on Pyramid. The ' \
     'sprint takes place in Ljubljana, Slovenia, EU in the first week of ' \
     'December (5th to 9th). The main two sprint topics are Pyramid 2.0 and ' \
