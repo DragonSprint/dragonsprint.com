@@ -6,6 +6,7 @@ Janez Troha
 :category: Sprinters
 :slug: dz0ny
 :summary: Python / Go
+:image: /images/janez_troha.png
 
 Mixer of web related techologies, pragmatist.
 
