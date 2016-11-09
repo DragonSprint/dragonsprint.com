@@ -1,5 +1,5 @@
 Jan Likar
-###########
+#########
 
 :date: 2016-11-09 16:45
 :tags: sprinters
