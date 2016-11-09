@@ -28,6 +28,7 @@ LINKS = (
     ('Domen Kožar', 'https://www.domenkozar.com/'),
     ('NiteoWeb Ltd.', 'http://www.niteoweb.com'),
     ('Plone Foundation', 'https://plone.org/foundation'),
+    ('Diana Clarke', 'http://dragonsprint.com/pages/sponsors.html'),
 )
 
 # Social widget
