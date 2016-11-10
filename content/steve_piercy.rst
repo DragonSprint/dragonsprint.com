@@ -5,7 +5,7 @@ Steve Piercy [remotely]
 :tags: sprinters
 :category: Sprinters
 :slug: steve-piercy
-:summary: Pyramid author
+:summary: Pyramid documentation contributor
 :image: /images/steve_piercy.jpg
 
 Steve maintains and updates documentation for Pyramid and other projects
