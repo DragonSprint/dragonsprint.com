@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Ljubljana Pyramid Hackers'
 SITENAME = u'A full week of sprinting on Pyramid'
 SITESUBTITLE = u'5 to 9 December 2016, set in the beautiful Ljubljana, Slovenia'
-SITEURL = 'http://dragonsprint.com'
+SITEURL = 'https://dragonsprint.com'
 
 PATH = 'content'
 
