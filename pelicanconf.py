@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 
 # Sponsors & Partners
 LINKS = (
-    ('Python Software Foundation', 'https://www.python.org/psf/'),
+    ('Steve Piercy', 'http://www.stevepiercy.com/'),
     ('Termitnjak d.o.o.', 'http://www.termitnjak.com/'),
     ('Domen Kožar', 'https://www.domenkozar.com/'),
     ('NiteoWeb Ltd.', 'http://www.niteoweb.com'),
