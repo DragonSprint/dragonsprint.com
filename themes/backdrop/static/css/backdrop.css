@@ -6442,9 +6442,10 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 
 /* Default Link Styles */
 a {
-  color: #6F8F8F;
+  color: 252525;
   text-decoration: none;
-  line-height: inherit; }
+  line-height: inherit;
+  }
   a:hover, a:focus {
     color: #ca1d2c; }
   a img {
@@ -7424,9 +7425,10 @@ th.hide-for-touch {
   max-height: 33%; }
 
 .about-me {
-  text-shadow: 1px 1px #000000;
+  /* text-shadow: 1px 1px #000000; */
   padding-bottom: 1.25rem;
-  overflow: hidden; }
+  overflow: hidden;
+  }
   div {
     font-size:  1rem !important; }
   .about-me h5 {
@@ -7537,15 +7539,19 @@ footer {
         }
 */ }
     .master-row .image-pane * {
-      color: #FFFFFF; }
+      color: #252525;
+      }
     .master-row .image-pane div, .master-row .image-pane span, .master-row .image-pane a, .master-row .image-pane p {
-      font-size: 0.9rem; }
+      font-size: 1.2rem;
+      }
     .master-row .image-pane i {
       color: inherit; }
     .master-row .image-pane a {
-      color: #DEDEDE; }
+      color: #000000;
+      }
     .master-row .image-pane a:active, .master-row .image-pane a:hover {
-      color: #bfbfbf; }
+      color: #000000;
+      }
     @media only screen and (min-width:64.063em) {
       .master-row .image-pane {
         padding-left: 0;
@@ -7900,4 +7906,14 @@ pre {
 img.align-center {
   display: block;
   margin: 0 auto;
+}
+
+.image-pane.main-content .row{
+    background: rgba(249, 249, 249, 0.37);
+    margin-top: 1.7rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+}
+.image-pane.main-content .row a.large.button:hover{
+    background-color: #40a070;
 }
