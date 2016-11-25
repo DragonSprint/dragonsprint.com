@@ -3,4 +3,6 @@ include/
 lib/
 output/
 pip-selfcheck.json
-
+local
+share
+*.pyc
