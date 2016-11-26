@@ -7917,3 +7917,7 @@ img.align-center {
 .image-pane.main-content .row a.large.button:hover{
     background-color: #40a070;
 }
+
+#logo-list a:hover:not(.button) {
+  background: none;
+}
