@@ -27,8 +27,6 @@ LINKS = (
     ('Termitnjak d.o.o.', 'http://www.termitnjak.com/'),
     ('Domen Kožar', 'https://www.domenkozar.com/'),
     ('NiteoWeb Ltd.', 'http://www.niteoweb.com'),
-    ('P2L Tech', 'http://p2l.tech'),
-    ('Plone Foundation', 'https://plone.org/foundation'),
     ('Diana Clarke', 'http://dragonsprint.com/pages/sponsors.html'),
 )
 
