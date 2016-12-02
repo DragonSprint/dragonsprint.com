@@ -7559,6 +7559,7 @@ footer {
         width: 33.3333333333%;
         float: left;
         min-height: auto;
+        overflow: auto;
         position: fixed;
         padding-left: 0.3125rem;
         right: 0;
