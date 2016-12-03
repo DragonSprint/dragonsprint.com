@@ -25,7 +25,6 @@ AUTHOR_FEED_RSS = None
 LINKS = (
     ('Steve Piercy', 'http://www.stevepiercy.com/'),
     ('Domen Kožar', 'https://www.domenkozar.com/'),
-    ('NiteoWeb Ltd.', 'http://www.niteoweb.com'),
     ('Diana Clarke', 'http://dragonsprint.com/pages/sponsors.html'),
 )
 
@@ -55,5 +54,5 @@ PLUGINS = [
 ]
 BACKDROP_IMAGE = '/theme/images/backdrop.jpg'
 FAVICON = '/theme/images/favicon.ico'
-SITE_DESCRIPTION = 'DragonSprint is a week-long sprint on Pyramid. The sprint takes place in Ljubljana, Slovenia, EU in the first week of December (5th to 9th). The main two sprint topics are <i>Pyramid 2.0</i> and Pyramid for Newcomers. <br /><br />The sprint is <b>free</b> to attend for everyone! <a href="mailto:info@dragonsprint.com">Contact us</a> if you need help with covering your travel expenses.'
+SITE_DESCRIPTION = 'DragonSprint is a week-long sprint on Pyramid. The sprint takes place in Ljubljana, Slovenia, EU in the first week of December (5th to 9th). The main two sprint topics are <i>Pyramid 2.0</i> and Pyramid for Newcomers.'
 YEAR = '2016'
