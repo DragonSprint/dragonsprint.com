@@ -24,7 +24,6 @@ AUTHOR_FEED_RSS = None
 # Sponsors & Partners
 LINKS = (
     ('Steve Piercy', 'http://www.stevepiercy.com/'),
-    ('Termitnjak d.o.o.', 'http://www.termitnjak.com/'),
     ('Domen Kožar', 'https://www.domenkozar.com/'),
     ('NiteoWeb Ltd.', 'http://www.niteoweb.com'),
     ('Diana Clarke', 'http://dragonsprint.com/pages/sponsors.html'),
