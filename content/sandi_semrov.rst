@@ -1,9 +1,9 @@
-Sandi Šemrov
+Sandi Å emrov
 ############
 
 :tags: sprinters
 :category: Sprinters
-:slug: steve-piercy
+:slug: sandi-semrov
 :summary: Python and Pyramid newbie
 :image: /images/sandi.png
 
